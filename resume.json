@@ -81,7 +81,7 @@
     {
       "project_name": "基于DPU卡的IT云算力调度技术研究与应用",
       "project_role": "技术负责人",
-      "project_time": "2022.9 - 至今",
+      "project_time": "2022.9 - 2023.12",
       "project_desc": "在传统裸金属的基础上加入DPU卡，将存储和网络下沉到DPU卡上，提升计算能力和网络带宽并实现裸金属的云盘启动、迁移和扩容。实现DPU卡和SDN厂商解藕，可以不同的SDN厂商和DPU卡厂商随意对接",
       "project_content": "在该项目中主要负责总体实现框架的设计和开发\n1. 和各个DPU卡厂商以及SDN厂商对接，指定整体解决方案和相关接口规范\n2.基于原生OpenStacke进行开发，以插件的形式在Opensatck侧实现解决方案\n3. 在DPU侧新增一个组件和OpenStack对接，实现全流程的打通"
     },
@@ -102,14 +102,21 @@
     {
       "project_name": "云迁移调度平台",
       "project_role": "技术负责人",
-      "project_time": "2023.6 - 至今",
+      "project_time": "2023.6 - 2023.12",
       "project_desc": "给用户提供上云方案，同POD、跨POD迁移，KVM2KVM迁移，VMWare2KVM迁移，IRONIC2KVM迁移，UEFI转LEGACY启动",
       "project_content": "负责迁移核心服务框架设计和开发，实现KVM2KVM迁移，VMWare2KVM迁移，IRONIC2KVM迁移，UEFI转LEGACY启动，支持增量迁移，可以通过SSH、镜像等多种方式迁移OS" 
+    },
+    {
+      "project_name": "SD-WAN",
+      "project_role": "项目负责人",
+      "project_time": "2023.12 - 至今",
+      "project_desc": "基于软件定义网络(SDN)的思想，设计和实现的一种新型网络技术。解决现代大型企业在全球不同区域的网络连通性，提高网络管理效率，并降低网络管理成本。",
+      "project_content": "1.在企业入口点通过CPE设备连接到骨干网，在广域网的基础上构建私有隧道\n2.通过SDWAN控制器来实现路由的选择以及流量监控等功能" 
     }
   ],
   "workList": [],
   "aboutme": {
-    "aboutme_desc": "两年云计算IAAS层研发经验\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。2.云计算运维:能够快速定位OpenStack问题点并进行分析解决\n3.云计算研发:针对OpenStack的研发能力，具有独立开发和测试经验"
+    "aboutme_desc": "两年云计算IAAS层研发经验\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。\n2.云计算运维:能够快速定位OpenStack问题点并进行分析解决\n3.云计算研发:针对OpenStack的研发能力，具有独立开发和测试经验"
   },
   "theme": {
     "color": "#2f5785",
