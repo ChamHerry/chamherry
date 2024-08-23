@@ -112,6 +112,13 @@
       "project_time": "2023.12 - 至今",
       "project_desc": "基于软件定义网络(SDN)的思想，设计和实现的一种新型网络技术。解决现代大型企业在全球不同区域的网络连通性，提高网络管理效率，并降低网络管理成本。",
       "project_content": "1.在企业入口点通过CPE设备连接到骨干网，在广域网的基础上构建私有隧道\n2.通过SDWAN控制器来实现路由的选择以及流量监控等功能" 
+    },
+    {
+      "project_name": "GPU切片",
+      "project_role": "项目负责人",
+      "project_time": "2024.6 - 至今",
+      "project_desc": "CUDA API接口，对接口进行劫持，实现显存/算力切片，虚拟化显存、远程调用等功能",
+      "project_content": "1.使用C编写动态链接库，对CUDA API接口进行劫持\n2.编写后端Agent服务，给GPU上层提供远程调用接口\n3.编写Server服务，管理GPU，实现GPU池化" 
     }
   ],
   "workList": [],
