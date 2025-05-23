@@ -1,146 +1,166 @@
 {
-  "titleNameMap": {
-    "educationList": "教育背景",
-    "workExpList": "工作经历",
-    "projectList": "项目经验",
-    "skillList": "个人技能",
-    "awardList": "更多信息",
-    "workList": "个人作品",
-    "aboutme": "个人评价"
-  },
-  "avatar": {
-    "src": "https://pic.imgdb.cn/item/65850325c458853aef8d8938.jpg",
-    "hidden": false
-  },
-  "profile": {
-    "name": "王学成",
-    "email": "ahut17353766123@gmail.com",
-    "mobile": "15501000400",
-    "github": "https://github.com/ChamHerry",
-    "zhihu": "",
-    "workExpYear": ""
-  },
-  "educationList": [
-    {
-      "edu_time": [
-        "2017.09.01",
-        "2021.06.30"
-      ],
-      "school": "安徽工业大学",
-      "major": "软件工程",
-      "academic_degree": "本科"
+    "titleNameMap": {
+      "educationList": "教育背景",
+      "workExpList": "工作经历",
+      "projectList": "项目经验",
+      "skillList": "专业技能",
+      "awardList": "荣誉奖项",
+      "workList": "个人作品",
+      "aboutme": "个人评价"
+    },
+    "avatar": {
+      "src": "https://pic.imgdb.cn/item/65850325c458853aef8d8938.jpg",
+      "hidden": false
+    },
+    "profile": {
+      "name": "王学成",
+      "email": "ahut17353766123@gmail.com",
+      "mobile": "15501000400",
+      "github": "https://github.com/ChamHerry",
+      "zhihu": "",
+      "workExpYear": "3年+"
+    },
+    "educationList": [
+      {
+        "edu_time": [
+          "2017.09.01",
+          "2021.06.30"
+        ],
+        "school": "安徽工业大学",
+        "major": "软件工程",
+        "academic_degree": "本科"
+      }
+    ],
+    "awardList": [
+      {
+        "award_info": "RoboCup机器人世界杯——第四名",
+        "award_time": "2019.06"
+      },
+      {
+        "award_info": "RoboCup机器人世界中国赛-仿真2D组技术挑战赛（冠军）",
+        "award_time": "2019.04"
+      },
+      {
+        "award_info": "RoboCup机器人世界中国赛-仿真2D组（亚军）",
+        "award_time": "2019.04"
+      },
+      {
+        "award_info": "2018安徽省机器人大赛-机器人类竞赛（三等奖）",
+        "award_time": "2018.06"
+      },
+      {
+        "award_info": "RoboCup机器人世界中国赛-仿真2D组技术挑战赛（冠军）",
+        "award_time": "2018.04"
+      },
+      {
+        "award_info": "RoboCup机器人世界中国赛-仿真2D组（冠军）",
+        "award_time": "2018.04"
+      }
+    ],
+    "workExpList": [
+      {
+        "company_name": "北京思特奇信息技术有限公司",
+        "department_name": "云服务产品线",
+        "work_time": [
+          "2021.06",
+          "至今"
+        ],
+        "work_desc": "1. 负责北京联通京慧云平台个性化能力开发\n2. 担任智能网卡实现OpenStack弹性裸金属项目的技术负责人\n3. 担任业务监控-手机探测开发总负责人\n4. 担任OpenStack-Pike国产化工作负责人\n5. 担任云迁移调度平台技术负责人\n6. GPU切片平台负责人"
+      }
+    ],
+    "skillList": [
+      {
+        "skill_name": "编程语言",
+        "skill_desc": "熟练掌握 Python、Go、C/C++"
+      },
+      {
+        "skill_name": "云计算",
+        "skill_desc": "精通OpenStack架构及各组件原理，具备云平台设计、开发和运维能力"
+      },
+      {
+        "skill_name": "虚拟化技术",
+        "skill_desc": "熟悉KVM、Docker容器技术，掌握虚拟化原理及网络虚拟化技术"
+      },
+      {
+        "skill_name": "网络技术",
+        "skill_desc": "熟悉TCP/IP协议栈，了解SDN、QUIC等网络技术和协议"
+      },
+      {
+        "skill_name": "GPU虚拟化",
+        "skill_desc": "熟悉CUDA开发，具备GPU切片与虚拟化相关经验"
+      }
+    ],
+    "projectList": [
+      {
+        "project_name": "数据快递",
+        "project_role": "技术负责人",
+        "project_time": "2024.4 - 至今",
+        "project_desc": "高性能数据传输工具，解决大规模数据传输瓶颈问题",
+        "project_content": "1. 基于QUIC协议设计开发多流并行传输引擎，支持高并发、低延迟的数据传输\n2. 实现基于Rsync原理的增量传输算法，支持断点续传和数据校验\n3. 优化网络传输策略，根据网络状况动态调整传输参数，提升传输效率"
+      },
+      {
+        "project_name": "应用迁移调度平台",
+        "project_role": "技术负责人",
+        "project_time": "2024.3 - 至今",
+        "project_desc": "在云迁移调度平台基础之上进行进一步升级，支持ARM<->X64跨架构应用迁移",
+        "project_content": "1. 使用Go语言开发轻量级跨平台应用，实现多架构部署与运行\n2. 设计开发系统环境扫描模块，自动分析应用依赖并生成迁移评估报告\n3. 实现跨架构二进制代码转换与优化，支持同架构、跨架构应用无缝迁移"
+      },
+      {
+        "project_name": "GPU切片平台",
+        "project_role": "项目负责人",
+        "project_time": "2023.12 - 至今",
+        "project_desc": "面向AI算力需求，通过对CUDA API接口劫持，实现显存/算力切片，虚拟化显存、远程调用等功能",
+        "project_content": "1. 使用C语言编写动态链接库，实现CUDA API接口劫持与资源隔离\n2. 开发后端Agent服务，为上层应用提供GPU资源远程调用接口\n3. 设计实现GPU资源管理Server服务，支持显存分配、算力调度与资源监控"
+      },
+      {
+        "project_name": "SD-WAN",
+        "project_role": "项目负责人",
+        "project_time": "2023.12 - 至今",
+        "project_desc": "基于软件定义网络(SDN)的思想，设计和实现的一种新型网络技术。解决现代大型企业在全球不同区域的网络连通性，提高网络管理效率，并降低网络管理成本",
+        "project_content": "1. 在企业入口点通过CPE设备连接到骨干网，设计实现基于广域网的私有隧道技术\n2. 开发SDWAN控制器，实现智能路由选择、流量监控与网络安全防护\n3. 集成网络分析与可视化功能，提供网络性能实时监控与故障诊断能力"
+      },
+      {
+        "project_name": "云迁移调度平台",
+        "project_role": "技术负责人",
+        "project_time": "2023.6 - 2023.12",
+        "project_desc": "给用户提供全方位上云方案，支持同POD、跨POD迁移，KVM2KVM迁移，VMWare2KVM迁移，IRONIC2KVM迁移，UEFI转LEGACY启动",
+        "project_content": "1. 负责迁移核心服务框架设计和开发，实现异构平台间系统迁移\n2. 开发KVM、VMWare、IRONIC间的迁移转换引擎，支持UEFI转LEGACY启动\n3. 实现增量迁移技术，支持通过SSH、镜像等多种方式迁移操作系统，最小化业务中断时间"
+      },
+      {
+        "project_name": "OpenStack国产化",
+        "project_role": "项目负责人",
+        "project_time": "2022.11 - 2023.12",
+        "project_desc": "将基于CentOS的OpenStack-Pike版云平台迁移到国产BC欧拉操作系统，确保业务平稳过渡与兼容性",
+        "project_content": "1. 完成Pike版OpenStack由Python2.7到Python3.6的代码迁移与适配\n2. 在BC欧拉系统中重新构建OpenStack组件与依赖库，解决国产化过程中的兼容性问题\n3. 制定完整部署方案并交付运维团队，确保批量部署测试的顺利进行"
+      },
+      {
+        "project_name": "基于DPU卡的IT云算力调度技术研究与应用",
+        "project_role": "技术负责人",
+        "project_time": "2022.9 - 2023.12",
+        "project_desc": "在传统裸金属的基础上加入DPU卡，将存储和网络下沉到DPU卡上，提升计算能力和网络带宽并实现裸金属的云盘启动、迁移和扩容。实现DPU卡和SDN厂商解耦，支持不同SDN厂商和DPU卡厂商灵活对接",
+        "project_content": "1. 主导总体架构设计与实现，协调各DPU卡厂商和SDN厂商对接，制定解决方案和接口规范\n2. 基于原生OpenStack开发插件，实现裸金属服务器资源池化管理\n3. 在DPU侧开发对接组件，与OpenStack集成，实现全流程的业务打通"
+      },
+      {
+        "project_name": "业务监控-手机探测",
+        "project_role": "开发总负责人",
+        "project_time": "2021.12 - 2022.6",
+        "project_desc": "通过在手机中安装探测客户端，实现对手机APP的实时监控与性能分析",
+        "project_content": "1. 负责手机探测系统整体架构设计与开发，包括客户端、后端和前端全栈开发\n2. 开发手机客户端组件，实现对主流应用性能指标的采集与分析\n3. 设计实现命令下发与数据采集服务，支持远程控制与实时监控"
+      },
+      {
+        "project_name": "北京联通京慧云",
+        "project_role": "开发人员",
+        "project_time": "2021.09 - 2021.12",
+        "project_desc": "面向北京联通提供的企业级私有云服务平台",
+        "project_content": "1. 负责云平台核心组件的日常维护与性能优化\n2. 开发定制化功能模块，满足客户特定业务需求\n3. 参与平台故障诊断与修复，确保平台稳定运行"
+      }
+    ],
+    "workList": [],
+    "aboutme": {
+      "aboutme_desc": "具备3年+云计算IAAS层研发经验和智算中心开发经验\n1. 项目管理：具有独立跟进和推动项目进度经验，把控研发测试交付全流程\n2. 云计算专家：精通OpenStack架构，能够快速定位问题并提供解决方案\n3. 研发能力：具备从架构设计到实现的全栈开发能力，擅长解决复杂技术问题\n4. 智算中心：深入理解GPU虚拟化和AI算力调度，提供高性能基础设施服务"
+    },
+    "theme": {
+      "color": "#2f5785",
+      "tagColor": "#8bc34a"
     }
-  ],
-  "awardList": [
-    {
-      "award_info": "RoboCup机器人世界杯——第四名",
-      "award_time": "2019.06"
-    },
-    {
-      "award_info": "RoboCup机器人世界中国赛-仿真2D组技术挑战赛（冠军）",
-      "award_time": "2019.04"
-    },
-    {
-      "award_info": "参加了RoboCup机器人世界中国赛-仿真2D组（亚军）",
-      "award_time": "2019.04"
-    },
-    {
-      "award_info": "2018安徽省机器人大赛-机器人类竞赛（三等奖）",
-      "award_time": "2018.06"
-    },
-    {
-      "award_info": "RoboCup机器人世界中国赛-仿真2D组技术挑战赛（冠军）",
-      "award_time": "2018.04"
-    }
-    ,
-    {
-      "award_info": "RoboCup机器人世界中国赛-仿真2D组（冠军）",
-      "award_time": "2018.04"
-    }
-  ],
-  "workExpList": [
-    {
-      "company_name": "北京思特奇信息技术有限公司",
-      "department_name": "云服务产品线",
-      "work_time": [
-        "2021.06",
-        null
-      ],
-      "work_desc": "1. 负责北京联通京慧云平台个性化能力开发\r\n2. 担任智能网卡实现OpenStack弹性裸金属项目的技术负责人\r\n3. 担任业务监控-手机探测开发总负责人\r\n4.担任OpenStack-Pike国产化工作负责人\r\n5.担任云迁移调度平台技术负责人\r\n6.GPU切片平台负责人"
-    }
-  ],
-  "skillList": [],
-  "projectList": [
-    {
-      "project_name": "北京联通京慧云",
-      "project_role": "开发人员",
-      "project_time": "2021.09 - 2021.12",
-      "project_desc": "面向北京联通提供私有云服务",
-      "project_content": "1. 负责产品的日常维护\n2.负责一些个性化功能的开发"
-    },
-    {
-      "project_name": "基于DPU卡的IT云算力调度技术研究与应用",
-      "project_role": "技术负责人",
-      "project_time": "2022.9 - 2023.12",
-      "project_desc": "在传统裸金属的基础上加入DPU卡，将存储和网络下沉到DPU卡上，提升计算能力和网络带宽并实现裸金属的云盘启动、迁移和扩容。实现DPU卡和SDN厂商解藕，可以不同的SDN厂商和DPU卡厂商随意对接",
-      "project_content": "在该项目中主要负责总体实现框架的设计和开发\n1. 和各个DPU卡厂商以及SDN厂商对接，指定整体解决方案和相关接口规范\n2.基于原生OpenStacke进行开发，以插件的形式在Opensatck侧实现解决方案\n3. 在DPU侧新增一个组件和OpenStack对接，实现全流程的打通"
-    },
-    {
-      "project_name": "业务监控-手机探测",
-      "project_role": "开发总负责人",
-      "project_time": "2021.12 - 2022.6",
-      "project_desc": "在手机中安装一个探测客户端，通过服务端对手机客户端下发命令，实现对手机APP的实时监控",
-      "project_content": "负责项目整体解决方案的设计和开发\n1.负责手机客户端的设计和开发\n2.负责手机探测后端的设计和开发\n3.负责手机探测前端的设计和开发"
-    },
-    {
-      "project_name": "OpenStack国产化",
-      "project_role": "项目负责人",
-      "project_time": "2022.11 - 至今",
-      "project_desc": "现网都是基于Centos搭建的OpenStack-Pike版，国产化原因需要升级到BC欧拉操作系统",
-      "project_content": "1.将Pike版OpenStack由Python2.7升级到Python3.6\n2.在BC欧拉中安装OpenStack-Pike并形成完整的部署方案交付到运维侧进行批量部署测试" 
-    },
-    {
-      "project_name": "云迁移调度平台",
-      "project_role": "技术负责人",
-      "project_time": "2023.6 - 2023.12",
-      "project_desc": "给用户提供上云方案，同POD、跨POD迁移，KVM2KVM迁移，VMWare2KVM迁移，IRONIC2KVM迁移，UEFI转LEGACY启动",
-      "project_content": "负责迁移核心服务框架设计和开发，实现KVM2KVM迁移，VMWare2KVM迁移，IRONIC2KVM迁移，UEFI转LEGACY启动，支持增量迁移，可以通过SSH、镜像等多种方式迁移OS" 
-    },
-    {
-      "project_name": "SD-WAN",
-      "project_role": "项目负责人",
-      "project_time": "2023.12 - 至今",
-      "project_desc": "基于软件定义网络(SDN)的思想，设计和实现的一种新型网络技术。解决现代大型企业在全球不同区域的网络连通性，提高网络管理效率，并降低网络管理成本。",
-      "project_content": "1.在企业入口点通过CPE设备连接到骨干网，在广域网的基础上构建私有隧道\n2.通过SDWAN控制器来实现路由的选择以及流量监控等功能" 
-    },
-    {
-      "project_name": "GPU切片",
-      "project_role": "项目负责人",
-      "project_time": "2024.6 - 至今",
-      "project_desc": "CUDA API接口，对接口进行劫持，实现显存/算力切片，虚拟化显存、远程调用等功能",
-      "project_content": "1.使用C编写动态链接库，对CUDA API接口进行劫持\n2.编写后端Agent服务，给GPU上层提供远程调用接口\n3.编写Server服务，管理GPU，实现GPU池化" 
-    },
-    {
-      "project_name": "应用迁移调度平台",
-      "project_role": "技术负责人",
-      "project_time": "2025.3 - 至今",
-      "project_desc": "在云迁移调度平台基础之上进行进一步升级,支持ARM<->X64互相迁移",
-      "project_content": "1.使用Go编写,在机器上可以直接运行\n2.对本机环境进行扫描,出具扫描报告\n3.根据扫描报告进行迁移,支持同架构、跨架构随意迁移" 
-    },
-    {
-      "project_name": "数据快递",
-      "project_role": "技术负责人",
-      "project_time": "2025.4 - 至今",
-      "project_desc": "数据快速传输工具",
-      "project_content": "1.基于QUIC协议进行多个流同时传输\n2.使用Rsync原理,支持增量传输、断点续传" 
-    }
-  ],
-  "workList": [],
-  "aboutme": {
-    "aboutme_desc": "两年云计算IAAS层研发经验,一年智算中心开发经验\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。\n2.云计算运维:能够快速定位OpenStack问题点并进行分析解决\n3.云计算研发:针对OpenStack的研发能力，具有独立开发和测试经验\n4.智算中心底层研发,向上提供基础服务"
-  },
-  "theme": {
-    "color": "#2f5785",
-    "tagColor": "#8bc34a"
   }
-}
