@@ -66,7 +66,7 @@
         "2021.06",
         null
       ],
-      "work_desc": "1. 负责北京联通京慧云平台个性化能力开发\r\n2. 担任智能网卡实现OpenStack弹性裸金属项目的技术负责人\r\n3. 担任业务监控-手机探测开发总负责人\r\n4.担任OpenStack-Pike国产化工作负责人\r\n5.担任云迁移调度平台技术负责人"
+      "work_desc": "1. 负责北京联通京慧云平台个性化能力开发\r\n2. 担任智能网卡实现OpenStack弹性裸金属项目的技术负责人\r\n3. 担任业务监控-手机探测开发总负责人\r\n4.担任OpenStack-Pike国产化工作负责人\r\n5.担任云迁移调度平台技术负责人\r\n6.GPU切片平台负责人"
     }
   ],
   "skillList": [],
@@ -119,11 +119,25 @@
       "project_time": "2024.6 - 至今",
       "project_desc": "CUDA API接口，对接口进行劫持，实现显存/算力切片，虚拟化显存、远程调用等功能",
       "project_content": "1.使用C编写动态链接库，对CUDA API接口进行劫持\n2.编写后端Agent服务，给GPU上层提供远程调用接口\n3.编写Server服务，管理GPU，实现GPU池化" 
+    },
+    {
+      "project_name": "应用迁移调度平台",
+      "project_role": "项目负责人",
+      "project_time": "2025.3 - 至今",
+      "project_desc": "在云迁移调度平台基础之上进行进一步升级,支持ARM<->X64互相迁移",
+      "project_content": "1.使用Go编写,在机器上可以直接运行\n2.对本机环境进行扫描,出具扫描报告\n3.根据扫描报告进行迁移,支持同架构、跨架构随意迁移" 
+    },
+    {
+      "project_name": "数据快递",
+      "project_role": "项目负责人",
+      "project_time": "2025.4 - 至今",
+      "project_desc": "数据快速传输工具",
+      "project_content": "1.基于QUIC协议进行多个流同时传输\n2.使用Rsync原理,支持增量传输、断点续传" 
     }
   ],
   "workList": [],
   "aboutme": {
-    "aboutme_desc": "两年云计算IAAS层研发经验\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。\n2.云计算运维:能够快速定位OpenStack问题点并进行分析解决\n3.云计算研发:针对OpenStack的研发能力，具有独立开发和测试经验"
+    "aboutme_desc": "两年云计算IAAS层研发经验,一年智算中心开发经验\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。\n2.云计算运维:能够快速定位OpenStack问题点并进行分析解决\n3.云计算研发:针对OpenStack的研发能力，具有独立开发和测试经验\n4.智算中心底层研发,向上提供基础服务"
   },
   "theme": {
     "color": "#2f5785",
