@@ -122,14 +122,14 @@
     },
     {
       "project_name": "应用迁移调度平台",
-      "project_role": "项目负责人",
+      "project_role": "技术负责人",
       "project_time": "2025.3 - 至今",
       "project_desc": "在云迁移调度平台基础之上进行进一步升级,支持ARM<->X64互相迁移",
       "project_content": "1.使用Go编写,在机器上可以直接运行\n2.对本机环境进行扫描,出具扫描报告\n3.根据扫描报告进行迁移,支持同架构、跨架构随意迁移" 
     },
     {
       "project_name": "数据快递",
-      "project_role": "项目负责人",
+      "project_role": "技术负责人",
       "project_time": "2025.4 - 至今",
       "project_desc": "数据快速传输工具",
       "project_content": "1.基于QUIC协议进行多个流同时传输\n2.使用Rsync原理,支持增量传输、断点续传" 
